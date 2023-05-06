@@ -1,0 +1,27 @@
+.logo{
+    width: 200px;
+}
+
+.links{
+    color: white;
+}
+
+.links:hover{
+    color: #4ED133;
+}
+
+.boton-header{
+    border: 2px solid #4ED133;
+    background: none;
+    padding: 7px 40px;
+    color: white;
+}
+
+.boton-header:hover{
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.centrado{
+}
