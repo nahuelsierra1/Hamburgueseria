@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
 </head>
 <body>
         <main>
-            <header class="bg-black" style="height: 85px;">
+            <header class="bg-black" style="height: 75px;">
                 <nav class="navbar navbar-expand-lg bg-black pt-3">
                     <div class="container-fluid px-0" style="height: 100%;">
 
@@ -30,7 +30,7 @@
                         <span><i class="las la-hamburger fs-1 text-white"></i></span>
                       </button>
 
-                      <div class="collapse navbar-collapse bg-black vh-100" id="navbarSupportedContent">
+                      <div class="collapse navbar-collapse bg-black vh-100" style="z-index: 2;" id="navbarSupportedContent">
                         <div class="centrado d-flex flex-column justify-content-center align-items-center vh-100">
 
                           <h2 class="text-white fw-bold fs-1">MENÚ</h2>
@@ -69,6 +69,40 @@
                     </div>
                   </nav>
             </header>
+
+            <section>
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner style="z-index: -1;"">
+                  <div class="carousel-item active imagen-1">
+                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                      <h2 class="text-white fw-bold text-center">VENI A DISFRUTAR DE BL <br> BERNARDO</h2>
+                      <button class="boton-header fs-6 mt-2">UBICACION</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item imagen-2">
+                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                      <h2 class="text-white fw-bold text-center">CONOCE TODAS NUESTRAS <br> BURGERS</h2>
+                      <button class="boton-header fs-6 mt-2">BURGERS</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item imagen-3">
+                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                      <h2 class="text-white fw-bold text-center">VOLVIMOS AL BARRIO</h2>
+                      <h3 class="text-white fw-lighter fs-6 fst-italic mt-2 mb-4 text-center">TE ESPERAMOS EN NUESTRA NUEVA SUCURSAL</h3>
+                      <button class="boton-header fs-6">UBICACION</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
         </main>
 </body>
 </html>
