@@ -1,3 +1,11 @@
+*{
+    font-family: "Montserrat", Sans-serif;;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 .logo{
     width: 150px;
 }
@@ -23,26 +31,15 @@
     color: black;
 }
 
-.imagen-1{
-    background-image: url(../img/imagen\ 2.jpg);
-    background-position: center;
-    background-size: cover;
+.imagen{
     background-repeat: no-repeat;
-}
-.imagen-2{
-    background-image: url(../img/imagen\ 1.jpg);
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-.imagen-3{
-    background-image: url(../img/imagen\ 3.jpg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 75vh;
+    filter: brightness(0.3);
 }
 
-.carousel-item{
+.carrusel{
     height: 75vh;
     width: 100%;
 }
@@ -53,4 +50,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.pared{
+    background-image: url(../img/pared.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#map, #mapa{
+    height: 300px;
+	width: 100%;
 }

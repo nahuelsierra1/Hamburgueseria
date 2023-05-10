@@ -15,9 +15,9 @@
     <title>Document</title>
 </head>
 <body>
-        <main>
-            <header class="bg-black" style="height: 75px;">
-                <nav class="navbar navbar-expand-lg bg-black pt-3">
+        <main class="bg-black">
+            <header class="sticky-top" style="height: 75px;">
+                <nav class="navbar navbar-expand-lg pt-3 sticky-top">
                     <div class="container-fluid px-0" style="height: 100%;">
 
                     <!-- LOGO -->  
@@ -27,7 +27,7 @@
                     <!-- MENU COLAPSADO -->  
 
                       <button class="navbar-toggler border-0 me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="las la-hamburger fs-1 text-white"></i></span>
+                        <span><i class="las la-hamburger text-white" style="font-size: 35px;"></i></span>
                       </button>
 
                       <div class="collapse navbar-collapse bg-black vh-100" style="z-index: 2;" id="navbarSupportedContent">
@@ -62,7 +62,7 @@
                               <!-- BOTON PEDIDOS -->  
       
                               <div class="boton w-100 d-flex justify-content-center align-items-center">
-                                  <button type="button" class="boton-header fs-5 mb-5">PEDIDOS <i class="bi bi-bicycle ms-2 mb-5"></i></button>
+                                  <button type="button" class="boton-header fs-6 mb-5">PEDIDOS <i class="bi bi-bicycle ms-2 mb-5"></i></button>
                               </div>
                         </div>
                       </div>
@@ -70,23 +70,28 @@
                   </nav>
             </header>
 
+            <!-- SECTION PRINCIPAL -->
+
             <section>
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner style="z-index: -1;"">
-                  <div class="carousel-item active imagen-1">
-                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/imagen 2.jpg" class="d-block imagen" alt="...">
+                    <div class="carousel-caption centrado">
                       <h2 class="text-white fw-bold text-center">VENI A DISFRUTAR DE BL <br> BERNARDO</h2>
                       <button class="boton-header fs-6 mt-2">UBICACION</button>
                     </div>
                   </div>
-                  <div class="carousel-item imagen-2">
-                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                  <div class="carousel-item">
+                    <img src="img/imagen 1.jpg" class="d-block imagen" alt="...">
+                    <div class="carousel-caption centrado">
                       <h2 class="text-white fw-bold text-center">CONOCE TODAS NUESTRAS <br> BURGERS</h2>
                       <button class="boton-header fs-6 mt-2">BURGERS</button>
                     </div>
                   </div>
-                  <div class="carousel-item imagen-3">
-                    <div class="centrado d-flex justify-content-center align-items-center flex-column">
+                  <div class="carousel-item">
+                    <img src="img/imagen 3.jpg" class="d-block imagen" alt="...">
+                    <div class="carousel-caption centrado">
                       <h2 class="text-white fw-bold text-center">VOLVIMOS AL BARRIO</h2>
                       <h3 class="text-white fw-lighter fs-6 fst-italic mt-2 mb-4 text-center">TE ESPERAMOS EN NUESTRA NUEVA SUCURSAL</h3>
                       <button class="boton-header fs-6">UBICACION</button>
@@ -103,6 +108,100 @@
                 </button>
               </div>
             </section>
+
+            <!-- SECTION HAMBURGUESAS -->
+
+            <section class="vh-auto py-5 pared">
+
+              <div class="texto my-5 text-center text-white">
+                <h2 class="fw-bold fs-5">BURGERS DESTACADAS</h2>
+                <P>Presioná para descubrirlas</P>
+              </div>
+
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner w-100">
+                  <div class="carousel-item active">
+                    <img src="img/hamburguesas/ham1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/hamburguesas/ham2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/hamburguesas/ham3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/hamburguesas/ham4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/hamburguesas/ham5.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/hamburguesas/ham6.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+
+              <div class="boton w-100 d-flex justify-content-center align-items-center">
+                <button type="button" class="boton-header fs-6 my-5">VER TODAS <i class="las la-hamburger ms-2"></i></button>
+            </div>
+            </section>
+
+            <!-- SECTION NOSOTROS -->
+
+            <section class="text-center p-5 text-white">
+              <h2 class="mt-5 mb-5 fw-bold">¿QUÉ ES BURGER LAB?</h2>
+              <p>Un laboratorio de hamburguesas marplatense que estudia, inventa y desarrolla productos de alta gama, dentro de la gastronomía de la nueva era. Comer hamburguesas trasciende fronteras, idiomas, costumbres, edades. No se requieren cubiertos, ni platos especiales ni siquiera estar sentado. Esas particularidades merecen ser analizadas, por eso creamos nuestro laboratorio.</p>
+              <div class="boton w-100 d-flex justify-content-center align-items-center">
+                <button type="button" class="boton-header fs-6 my-5">NUESTRA HISTORIA</button>
+            </div>
+            </section>
+
+            <!-- SECTION UBICACION -->
+
+            <section class="text-white text-center p-5">
+              <h2 class="mt-5 mb-5 fw-bold">¿QUÉ ESTÁS ESPERANDO PARA VISITARNOS?</h2>
+
+              <div class="mogotes my-5">
+                <h3 class="fs-5 fw-bold">BL MOGOTES</h3>
+                <h4 class="fs-6">Puan 1755</h4>
+              </div>
+
+              <div id="map">
+
+              </div>
+
+              <div class="bernardo my-5">
+                <h3 class="fs-5 fw-bold">BL BERNARDO</h3>
+                <h4 class="fs-6">Bernardo de Irigoyen 3996</h4>
+              </div>
+
+              <div id="mapa">
+
+              </div>
+            </section>
         </main>
+
+        <footer class="bg-black">
+
+          <h2 class="fw-bold text-center text-white fs-6">SUSCRIBITE Y ENTERATE DE TODAS NUESTRAS NOVEDADES</h2>
+
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control bg-black border-0" id="floatingInput" placeholder="Nombre">
+              <label for="floatingInput" class="text-white">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingDate" placeholder="Cumpleaños">
+              <label for="floatingPassword">Cumpleaños</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingPassword" placeholder="Email">
+              <label for="floatingPassword">Email</label>
+            </div>
+          </form>
+        </footer>
+
+        <script src="js/api.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 </html>
